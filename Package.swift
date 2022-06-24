@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "UPCarouselFlowLayout",
-    platforms: [ .iOS(.v8) ],
+    platforms: [ .iOS(.v11) ],
     products: [
         .library(
             name: "UPCarouselFlowLayout", targets: ["UPCarouselFlowLayout"])
